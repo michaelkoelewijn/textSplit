@@ -1,0 +1,29 @@
+{
+  "name": "packagename",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "node_modules/.bin/webpack --config webpack.config.js --progress --colors --watch",
+    "build": "webpack",
+    "publish": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkoelewijn/npm.git"
+  },
+  "author": "Michael Koelewijn <imichael91@live.nl> (https://github.com/michaelkoelewijn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelkoelewijn/npm/issues"
+  },
+  "homepage": "https://github.com/michaelkoelewijn/npm#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.3.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}

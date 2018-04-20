@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaelkoelewijn/npm.git"
+    "url": "git+https://github.com/michaelkoelewijn/textSplit.git"
   },
   "author": "Michael Koelewijn <imichael91@live.nl> (https://github.com/michaelkoelewijn)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/michaelkoelewijn/npm/issues"
+    "url": "https://github.com/michaelkoelewijn/textSplit/issues"
   },
-  "homepage": "https://github.com/michaelkoelewijn/npm#readme",
+  "homepage": "https://github.com/michaelkoelewijn/textSplit#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",

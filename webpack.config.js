@@ -1,4 +1,4 @@
-const NAME = 'name';
+const NAME = 'textSplit';
 const DEPENDENCIES = ['jquery'];
 
 const config = {
@@ -12,7 +12,11 @@ const config = {
         libraryTarget: 'umd',
     },
     module: {
-        rules: [
+        rules: [ 
+            {
+                test: /\.css$/,
+                use: [ 'style-loader', 'css-loader' ]
+            },
             {
                 test: /\.js$/,
                 exclude: /node_modules/,

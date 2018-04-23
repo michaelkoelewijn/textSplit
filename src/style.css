@@ -1,0 +1,39 @@
+.js-textsplit {
+    position: relative;
+    visibility: hidden;
+}
+
+.js-textsplit.has-loaded {
+    visibility: visible;
+}
+
+.js-textsplit-original {
+    visibility: hidden;
+    display: block;
+}
+
+.js-textsplit-half {
+    position: absolute;
+    height: 50%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.js-textsplit-half span { 
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.js-textsplit-half-upper {
+    top: 0;
+}
+
+.js-textsplit-half-lower {
+    bottom: 0;
+}
+
+.js-textsplit-half-upper span { top: 0; }
+.js-textsplit-half-lower span { bottom: 100%; }
